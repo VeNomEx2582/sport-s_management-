@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    tools:context=".CourtDiagram">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Kabaddi -"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"
+                 android:fitsSystemWindows="false"
+                 android:src="@drawable/kabaddibac" />
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube"/>
+
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Cricket -"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/cricket"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:onClick="youtube1"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Badminton -"
+                 android:layout_marginTop="10dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/badmintonbac"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube2"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Kho Kho -"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/khokho"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube3"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Table Tennis -"
+                 android:layout_marginTop="10dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/table"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:layout_marginLeft="15dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textSize="18dp"
+                 android:onClick="youtube4"/>
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="judo -"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/judo"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube5"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="karate -"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/karate"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/comfortaa"
+                 android:text="Click here"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube6"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Taekwondo -"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/taekwondo"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:onClick="youtube7"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Sumo -"
+                 android:layout_marginTop="10dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/sumo"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/comfortaa"
+                 android:text="Click here"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube8"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Kung fu -"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/kungfu"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:layout_marginLeft="15dp"
+                 android:fontFamily="@font/comfortaa"
+                 android:textSize="18dp"
+                 android:onClick="youtube9"/>
+             <TextView
+                 android:layout_width="match_parent"
+                 android:text="Boxing -"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginTop="10dp"
+                 android:textSize="25dp"
+                 android:textColor="@color/black"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+
+             <ImageView
+                 android:layout_width="match_parent"
+                 android:layout_height="373dp"
+                 android:src="@drawable/boxing"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Click here"
+                 android:fontFamily="@font/comfortaa"
+                 android:layout_marginLeft="15dp"
+                 android:textSize="18dp"
+                 android:onClick="youtube10"/>
+
+         </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
